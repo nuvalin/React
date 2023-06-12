@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
+import { Nav, Button } from 'react-bootstrap';
 import { useParams } from "react-router-dom";
 
 class GitHubUser extends Component {
 
     constructor(props) {
         super(props);
-        this.handleClick = this.handleClick.bind(this);
+        // this.handleClick = this.handleClick.bind(this);
     }
 
-    handleClick(e) {
-        this.props.history.push("/github");
-    }
+    // handleClick(e) {
+    //     this.props.history.push("/github");
+    // }
 
     render() {
         // new code
@@ -20,7 +20,8 @@ class GitHubUser extends Component {
             <div>
                 <h1>User Login: {login}</h1>
                 <h2>User Id: {id}</h2>
-                <Button variant="primary" onClick={this.handleClick}>Go to GitHub Users</Button>
+                <Nav.Link href="/github"> <Button variant="primary" onClick={this.handleClick}>Go to GitHub Users</Button></Nav.Link>
+
             </div>
         );
     }
