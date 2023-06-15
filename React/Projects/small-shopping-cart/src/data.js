@@ -1,22 +1,23 @@
+//data contains the products
 const data = {
     products: [
         {
             id: '1',
-            name: 'MacBook',
-            price: 1400,
-            image: 'https://picsum.photos/id/180/2400/1600',
+            name: 'Nike Airforce ',
+            price: 1500,
+            image: './image/nike-air-force-1 .png',
         },
         {
             id: '2',
-            name: 'Old Car',
-            price: 2400,
-            image: 'https://picsum.photos/id/111/4400/2656',
+            name: 'Timberland',
+            price: 3000,
+            image: './image/timberland.png',
         },
         {
             id: '3',
-            name: 'W Shoes',
-            price: 1000,
-            image: 'https://picsum.photos/id/21/3008/2008',
+            name: 'Dockside Sebago',
+            price: 1800,
+            image: './image/dock sebago.png',
         },
     ],
 };

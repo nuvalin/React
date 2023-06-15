@@ -1,5 +1,5 @@
 import React from 'react';
-
+// exporting a function that accept props properties that come from the parent component
 export default function Header(props) {
   const {countCartItems} = props
   return (

@@ -8,6 +8,7 @@ export default function Basket(props) {
   const shippingPrice = itemsPrice > 2000 ? 0 : 20;
   const totalPrice = itemsPrice + taxPrice + shippingPrice;
   return (
+    //aside html5 tag to show sidebars for a site 
     <aside className="block col-1">
       <h2>Cart Items</h2>
       <div>

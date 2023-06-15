@@ -1,6 +1,6 @@
 import React from 'react';
 import Product from './Product';
-
+//html5 element to contain the main content of the website
 export default function Main(props) {
   const { products, onAdd } = props;
   return (
