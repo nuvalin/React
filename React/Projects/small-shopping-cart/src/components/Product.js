@@ -1,3 +1,4 @@
+//rfc to get this empty component
 import React from 'react';
 
 export default function Product(props) {
